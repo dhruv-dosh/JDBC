@@ -11,7 +11,7 @@ public class Jdbc_addingImg {
 
             String str = "insert into image(img) value(?)";
             PreparedStatement prd = con.prepareStatement(str);
-            FileInputStream fil = new FileInputStream("Learning2.png");
+            FileInputStream fil = new FileInputStream("src\\JDBC\\learning.png");
             prd.setBinaryStream(1,fil,fil.available());
             prd.executeUpdate();
             System.out.println("Image added...");
