@@ -1,7 +1,7 @@
 package JDBC;
 
 import java.sql.*;
-
+//Prepared statment
 public class Jdbc_PreParedStatment {
     public static void main(String[] args) {
         //insert into table value(?,?);
