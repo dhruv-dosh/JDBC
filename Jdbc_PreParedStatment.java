@@ -1,5 +1,4 @@
 package JDBC;
-
 import java.sql.*;
 //Prepared statment
 public class Jdbc_PreParedStatment {
